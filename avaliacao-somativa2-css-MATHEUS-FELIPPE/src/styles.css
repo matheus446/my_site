@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  color: #1ba500;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+}
+
+h2 {
+    color:#000000;
+    font-family: sans-serif;
+}
+
+
+h1 {
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+     display: inline-block;
+}
+
+#hero {
+     display: flex;
+    height: 150px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+
+#galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 3fr));
+    gap: 10px;
+}
+
+
+footer {
+     display: flex;
+    height: 150px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
