@@ -52,3 +52,22 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+
+.site-header,
+.site-footer {
+    background-color:blueviolet;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}   
+
+
+
+.site-nav a{
+    color:#00ffff;
+    text-decoration: none;
+}
+
+
+
