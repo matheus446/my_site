@@ -1,0 +1,58 @@
+
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+body {
+font-family: sans-serif;
+padding-top: 20px; 
+}
+
+.container {
+border: 2px dashed #ccc;
+padding: 10px;
+margin-bottom: 20px;
+}
+
+.caixa {
+width: 200px;
+height: 100px;
+padding: 10px;
+border: 3px solid #333;
+margin: 10px;
+}
+
+#caixa1 { background-color: #e67e22; }
+#caixa2 { background-color: #2ecc71; }
+#caixa3 { background-color: #3498db; }
+#caixa4 { background-color: #9b59b6; }
+
+#caixa2 {
+position: relative;
+top: 30px;
+left: 300px;
+z-index: 10;
+
+}
+
+#caixa3 {
+position: absolute;
+top: 5px;
+right: 5px; 
+width: 100px; 
+z-index: 5;
+}
+
+#caixa4 {
+position: fixed;
+bottom: 10px;
+right: 10px;
+width: 250px;
+}
+
+avatar-flutuante{
+    float: left;
+    width: 300px;
+    margin-left: 15px;
+}

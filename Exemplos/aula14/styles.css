@@ -1,0 +1,36 @@
+body{
+    font-family: "Bebas Neue", sans-serif;
+}
+
+
+
+a:link{
+    color:#7fff00;
+}
+
+a:visited{
+    color:#00ffff;
+}
+
+a:hover{
+    color:#ffffff;
+}
+
+a:active{
+    color:#9932cc;
+}
+
+#imagem{
+    width: 500%;
+    background-color: #7fffd4;
+}
+
+span{
+    background-color: #6495ed;
+}
+
+div > img{
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 30px 50px black;
+}
